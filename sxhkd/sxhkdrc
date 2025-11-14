@@ -1,0 +1,28 @@
+# Lanzar terminal
+super + Return
+lxterminal
+
+
+# Cerrar ventana
+super + q
+bspc node -c
+
+
+# Rofi launcher
+super + d
+rofi -show drun
+
+
+# Navegación entre ventanas
+super + {h,j,k,l}
+bspc node -f {west,south,north,east}
+
+
+# Mover ventanas
+super + shift + {h,j,k,l}
+bspc node -s {west,south,north,east}
+
+
+# Cambiar de escritorio
+super + {1-9}
+bspc desktop -f ^{1-9} 
