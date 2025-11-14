@@ -1,1 +1,2 @@
-ECHO est  activado.
+#!/bin/sh
+tty-clock -c -C 2
