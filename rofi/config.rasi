@@ -1,1 +1,19 @@
-ECHO est  activado.
+configuration {
+font: "JetBrainsMono Nerd Font 12";
+show-icons: true;
+}
+
+
+* {
+background: #110018;
+foreground: #D7DCE2;
+accent: #FF5DA2;
+}
+
+
+window {
+border: 2px;
+padding: 10px;
+border-radius: 12px;
+border-color: @accent;
+}
