@@ -1,1 +1,6 @@
-ECHO est  activado.
+{
+"logo": "kitty",
+"display": {
+"color": "blue"
+}
+}
