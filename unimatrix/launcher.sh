@@ -1,1 +1,2 @@
-ECHO est  activado.
+#!/bin/sh
+unimatrix -a -c green
